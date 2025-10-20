@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@mixin dFlex($jc: center, $ai: center) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+$hf-height: 60px;
+$sa-red: #E03C31;
+$sa-green: #007749;
+$sa-yellow: #FFB81C;
+$sa-blue: #001489;
+
+body {
+    margin: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        cursor: pointer;
+    }
+}

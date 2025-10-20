@@ -1,0 +1,26 @@
+@import "./../../../styles.scss";
+
+:host {
+    @include dFlex();
+    background: linear-gradient(55deg, 
+        $sa-red 0%, 
+        $sa-red 10%, 
+        white 10%, 
+        white 11%, 
+        $sa-green 11%, 
+        $sa-green 15%, 
+        $sa-yellow 15%, 
+        $sa-yellow 16%, 
+        black 16%, 
+        black 17%, 
+        $sa-yellow 17%, 
+        $sa-yellow 18%, 
+        $sa-green 18%, 
+        $sa-green 22%, 
+        white 22%, 
+        white 23%, 
+        $sa-blue 23%, 
+        $sa-blue 100%);
+    height: $hf-height;
+    width: 100vw;
+}

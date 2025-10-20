@@ -1,0 +1,8 @@
+@import "./../../styles.scss";
+
+:host {
+    @include dFlex();
+    flex-direction: column;
+    height: calc(100vh - $hf-height * 2);
+    background-color: beige;
+}

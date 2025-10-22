@@ -1,7 +1,7 @@
 @import "./../../styles.scss";
 
 :host {
-    @include dFlex();
+    @include dFlex($jc: space-around);
     flex-direction: column;
     height: calc(100vh - $hf-height * 2);
     background-color: beige;

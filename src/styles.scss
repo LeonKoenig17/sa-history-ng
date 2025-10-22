@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Garamond;
+    src: url("./assets/fonts/EBGaramond-VariableFont_wght.ttf");
+}
+
 @mixin dFlex($jc: center, $ai: center) {
     display: flex;
     justify-content: $jc;
@@ -12,6 +17,7 @@ $sa-blue: #001489;
 
 body {
     margin: 0;
+    font-family: Garamond;
 }
 
 button:hover {
